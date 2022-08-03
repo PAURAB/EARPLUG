@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EARPLUG:your podcast partner</title>
+    <script src="https://kit.fontawesome.com/748a9a71ff.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-image: url("earplug_back1.webp");
+            width: 800x;
+            height: 50px;
+            background-size: 1500px 1100px;
+        }
+
+        #main_head {
+            background-color: blue;
+        }
+
+        #nav1 ul li a {
+            text-decoration: none;
+            display: block;
+            float: left;
+            margin: 15px;
+            font-size: 20px;
+            padding-top: 6px;
+            margin-top: 75px;
+            /* border-color: black; */
+            /* border-style: solid;
+            border-radius: 6px; */
+            color: black;
+            /* box-shadow: 3px 3px 2px 2px black; */
+            padding-left: 3px;
+            padding-right: 3px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #nav1 ul {
+            list-style: none;
+        }
+
+        nav1 {
+            width: 80%;
+        }
+
+        #main_head nav1 {
+            overflow: auto;
+            float: right;
+        }
+
+        #logo img {
+            height: 190px;
+            width: 190px;
+            padding-top: 5px;
+            /* border-color: black; */
+            /* border-radius: 7px;
+            border-style: solid; */
+            padding-bottom: 6px;
+        }
+
+        #logo {
+            width: 20%;
+            display: block;
+            float: left;
+        }
+
+        #nav ul li {
+            margin: 10px;
+        }
+
+        #nav1 {
+            width: 1070px;
+        }
+
+        .submenu1 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: initial;
+            display:none;
+          font-size: 1px;
+        }
+
+        /* .para{
+        border-color: black;
+        border-style: solid;
+        background-color: bisque;
+        margin-top: 500px;
+    } */
+        /* .para{
+        margin-top: 500px;
+    } */
+        .box2 {
+            color: rgb(117, 78, 78);
+            background: rgb(237, 237, 243);
+            position: absolute;
+            top: 250px;
+            height: 150px;
+            width: 200px;
+            left: 7px;
+            border-radius: 33px;
+            border-style: solid;
+            border-color: black;
+        }
+
+        #nav1 ul li :hover {
+            text-decoration: underline;
+
+        }
+
+        /* #cat:hover .submenu1{
+            display: block;
+            background-color: crimson;
+        } */
+        #nav1 ul li:hover .submenu1 {
+            display: block;
+            background-color: rgb(212, 144, 144);
+            position: absolute;
+            height: 840px;
+            margin-top: 103px;
+            border-radius: 2px;
+            left: 290px;
+            top: 10px;
+        }
+        .submenu1 ul li:hover {
+            background-color: blanchedalmond;
+            text-decoration: none;
+        }
+        #signup{
+            position: absolute;
+            top: 70px;
+        }
+        .login{
+            margin-top: 27px;
+            /* text-decoration: none; */
+            padding-left: 45px;
+        }
+        .login a{
+            text-decoration: none;
+        }
+        .login :hover{
+            color: rgb(7, 1, 14);
+            font-size: large;
+        }
+        #search1{
+            position: absolute;
+            left: 295px;
+            top: 50px;
+            width: 668px;
+            height: 38px;
+            font-size: large;
+            /* background: transparent; */
+            border-radius: 50px;
+        }
+        #searchbtn{
+            position: absolute;
+            top: 60px;
+            right: 370px;
+            height: 5px;
+        }
+        #adbox1{
+            position: absolute;
+            top: 600px;
+            background-image: url("earplug1.png");
+        }
+        #adbox2{
+            position: absolute;
+            top: 600px;
+            background-image: url("earplug1.png");
+        }
+        #adbox3{
+            position: absolute;
+            top: 600px;
+            background-image: url("earplug1.png");
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main_head">
+        <div id="logo">
+            <img src="earplug1.png" alt="">
+        </div>
+        <div id="nav1">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="" id="cat">CATEGORY</a>
+                <div class="submenu1">
+                    <ul>
+                        <li><a href="">BUSSINESS TALKS</a></li>
+                        <li><a href="">CURRENT GEO-POLITICS</a></li>
+                        <li><a href="">SCI-FI</a></li>
+                        <li><a href="">HISTORY AND MYTHOLOGY</a></li>
+                        <li><a href="">POLITICAL TALKS</a></li>
+                        <li><a href="">SPORTS</a></li>
+                        <li><a href="">LOVE FOR PHYSICS </a></li>
+                    </ul>
+                </div>
+            </li>
+                <li><a href="earplug2.html">MY KART</a></li>
+                <li><a href="">ABOUT US</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">SUBSCRIPTION</a></li>
+                <!-- <li><a href="">SPONSORS</a></li> -->
+            </ul>
+        </div>
+    </div>
+    <div class="box2">
+       
+            <div class="login"><a href=""> LOGIN</a></div>
+            <ldiv class="login" id="signup"><a href="sign_up.html">SIGN UP</a></ldiv>
+        
+    </div>
+    <!-- <div class="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam mollitia cupiditate explicabo iste, dignissimos adipisci, laborum minus ipsum, dicta amet consequuntur pariatur blanditiis tenetur placeat itaque repellendus quod ut. Cupiditate ut reiciendis magnam a officiis consectetur fuga voluptates aut asperiores placeat, corporis odit, consequatur laudantium excepturi nihil! Saepe, accusamus accusantium!
+    </div> -->
+    <div > <input type="search" placeholder="Search for books,topics or people" name="" id="search1"></div>
+    <a href="" id="searchbtn"><i class="fa-solid fa-magnifying-glass"></i></a>
+    <!-- <div id="adbox1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quidem reiciendis cum, laboriosam ipsam obcaecati.<img src="EARPLUG.html" alt=""></div>
+    <div id="adbox2"><img src="EARPLUG.html" alt=""></div>
+    <div id="adbox3"><img src="EARPLUG.html" alt=""></div> -->
+</body>
+
+</html>
